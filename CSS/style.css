@@ -1,0 +1,150 @@
+body
+{
+	
+	margin:0;
+	padding:0;
+	color:white;
+	font:14px Georgia, serif;
+	background:black url(../Images/bg.jpg) fixed no-repeat; 
+
+}
+
+p.description{
+	text-transform: uppercase;
+}
+
+#header-desc
+{
+	width:432px;
+	height:100px;
+	font-family:Georgia;
+	font-style:italic;
+	font-size:20px;
+	margin:0 0 0 660px;
+	text-align:center;
+}
+
+a{
+	text-decoration:none;
+}
+ 
+a img{
+
+	border:0;
+}
+
+#main-content img{
+
+	0 0 15px 0;
+}
+
+h2
+{
+
+	text-transform:uppercase;
+	font:17px Georgia, serif;
+	letter-spacing:4px;
+	text-align:center;
+	margin:0 0 10px 0;
+}
+
+#sidebar h4
+{
+text-transform:uppercase;
+font:16px Georgia, serif;
+letter-spacing:4px;
+margin:0 0 10px 0;
+border-top:1px solid #ccc;
+border-bottom: 1px solid #ccc;
+text-indent:40px;
+
+}
+#page-wrap
+{
+	width:720px; 
+	margin:0px 0 0 640px;
+	overflow:hidden;
+	
+	
+    
+
+}
+
+#main-content
+{
+	background:rgba(13,55,82,0.7);
+	padding:20px;
+	width:432px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	float:left;
+	overflow:hidden;
+	margin-top:0;
+
+}
+
+#sidebar
+{
+
+
+float:right;
+width:248px;
+
+}
+
+#main-nav
+{
+	list-style-type:none;
+}
+
+#main-nav li
+{
+  font:20px Georgia;
+
+}
+
+#main-nav li a {
+
+color:#81bedc;
+display:block;
+padding:3px 0;
+
+}
+
+#main-nav li a:hover
+{
+	color:white;
+}
+
+#main-nav li.current a{
+	background:rgba(13,55,82,0.7);
+	margin:0 0 0 -40px; 
+	text-indent:40px;
+	color:white;
+	-moz-border-radius:5px;
+
+
+
+}
+
+#sidebar h5 a
+{
+font:italic 16px Georgia, serif;
+color:#81bedc;
+
+
+
+}
+
+h2.jan
+{
+
+	text-transform:uppercase;
+	font:12px Georgia, serif;
+	letter-spacing:4px;
+	text-align:center;
+	margin:0 0 10px 0;
+	text-indent:-57px
+
+}
